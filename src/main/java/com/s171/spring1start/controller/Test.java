@@ -1,4 +1,4 @@
-package com.s171.spring1start.contoller;
+package com.s171.spring1start.controller;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
