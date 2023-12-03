@@ -44,8 +44,7 @@ public class Animal {
     }
 
 
-    @Override
-    public boolean equals(Object o) {
+    public boolean equals(Object o, Object object) {
         if (this == o) return true;
         if (!(o instanceof Animal animal)) return false;
         return getId() == animal.getId() && Double.compare(getWeight(), animal.getWeight()) == 0 && Objects.equals(getName(), animal.getName());
